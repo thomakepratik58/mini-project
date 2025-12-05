@@ -1,0 +1,94 @@
+# =====================================
+#   PNEUMONIA-XAI PROJECT .GITIGNORE
+# =====================================
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ---- Environment & Dependency Management ----
+venv/
+env/
+.venv/
+.env/
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# ---- Jupyter Notebooks ----
+.ipynb_checkpoints/
+*.ipynb_save
+.notebook_checkpoints/
+
+# ---- IDE / Editor files ----
+.vscode/
+.idea/
+*.code-workspace
+
+# ---- Data & Datasets ----
+data/
+# If you want to include only metadata or small samples, uncomment below and add whitelist patterns
+# !data/README.md
+# !data/samples/
+
+# ---- Model Weights / Checkpoints ----
+models/trained_model.h5
+models/checkpoints/
+checkpoints/
+
+logs/
+*.hdf5
+*.keras
+
+
+# ---- OS-specific files ----
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# ---- Temporary / Cache Files ----
+*.tmp
+*.cache
+*.npy
+*.npz
+*.pickle
+*.pkl
+*.csv
+*.json
+
+# ---- Test / Debug Artifacts ----
+tests/
+debug/
+scratch/
+
+# ---- Virtual Machine / Docker ----
+.vagrant/
+docker-compose.override.yml
+*.pid
+
+# ---- Build Artifacts ----
+dist/
+build/
+*.spec
+
+# ---- Logs & Metrics ----
+wandb/
+mlruns/
+tensorboard/
+tb_logs/
+
+# results/
+results/

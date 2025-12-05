@@ -1,0 +1,11 @@
+tensorflow==2.16.1
+keras==3.3.3
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+opencv-python
+shap==0.45.0
+lime==0.2.0.1
+pillow
